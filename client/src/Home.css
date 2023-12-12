@@ -1,0 +1,239 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+.Home{
+    /* border: 2px solid red; */
+    height: 100vh;
+    overflow: hidden;
+}
+.bg_left{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.bg_right{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+.hero1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 100%;
+}
+.hero1 div{
+    /* border: 1px solid black; */
+}
+.h1_left_con{
+    /* border: 1px solid red; */
+    width: fit-content;
+    margin-left: 10%;
+}
+.logo{
+    height: 2.5rem;
+    margin-bottom: 20px;
+}
+.text1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 23px;
+    color: #DF6951;
+    margin-bottom: 5px;
+}
+.text2{
+    font-family: 'Volkhov', serif;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 66px;
+    color: #181E4B;
+    width: fit-content;
+    position: relative;
+}
+.line_text{
+    width: 16rem;
+    height: 11px;
+    position: absolute;
+    top: 61px;
+    right: -26px;
+    z-index: -1;
+}
+.text3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #5E6282;
+    margin-bottom: 5px;   
+}
+.next_icon{
+    height: 3rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.align_center{
+    text-align: center;
+}
+.hero1_right img{
+    margin-right: 10%;
+    height: 65%;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero2{
+    /* border: 1px solid red; */
+    height: 100%;
+    text-align: center;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fs25{
+    font-size: 25px;
+}
+.mb-5{
+    margin-bottom: 5px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.w50{
+    width: 50rem;
+}
+.fs15{
+    font-size: 15px;
+}
+.fs17{
+    font-size: 17px;
+}
+.fs20{
+    font-size: 20px;
+}
+.m0{
+    margin: 0;
+}
+.features{
+    /* border: 1px solid black; */
+    padding-right: 10px;
+    width: 50rem;
+    height: 28rem;
+    overflow-y: auto;
+}
+.features::-webkit-scrollbar {
+    width: 10px;
+}
+.features::-webkit-scrollbar-track {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.755) -122%, #ffffffcd 95%);
+    border-radius: 7px;
+}
+.features::-webkit-scrollbar-thumb {
+    background: linear-gradient(90deg, #cf644f74 -122%, #db776370 90%);
+    border-radius: 7px;
+}
+.fs30{
+    font-size: 30px;
+}
+.hero3{
+    /* border: 1px solid red; */
+    height: 100%;
+    padding: 2rem;
+    display: flex;
+    /* flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.hero3_left{
+    margin-left: 10%;
+}
+.hero3_right{
+    margin-right: 10%;
+}
+.contact_con{
+    /* border: 1px solid black; */
+    width: 60%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.input_label{
+    font-size: 17px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: #353535;
+}
+.contact_input{
+    font-family: 'Poppins';
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: #f5f5f5c9;
+    border: 1px solid #dfdfdf;
+    box-shadow: 0 2px 6px -6px black;
+    height: 35px;
+    font-size: 16px;
+    padding: 0 15px;
+}
+.contact_input::placeholder{
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    color: #35353582;
+}
+.w28{
+    width: 28rem;
+}
+.w20{
+    width: 20rem;
+}
+.h11{
+    height: 11rem;
+}
+.note_padding{
+    padding: 5px 10px;
+}
+.align_end{
+    text-align: end;
+}
+.submit-btn{
+    background-color: #DF6951;
+    height: 1.8rem;
+    width: 4.5rem;
+    text-align: center;
+    border: none;
+    border-radius: 7px;
+    font-size: 13px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    color: #282b2b;
+    cursor: pointer;
+}
+.mr7{
+    margin-right: 7px;
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
